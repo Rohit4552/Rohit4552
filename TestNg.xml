@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="nop commerce">
+
+    <test name="test">
+   <!--  <parameter name="browser" value="chrome"/> -->
+    <classes>
+    
+       <class name="com.nopCommerceV2.testCases.Test_Login_001"/>
+       
+    </classes>
+        </test>
+        
+     <!--     <test name="test2">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+    
+       <class name="com.nopCommerceV2.testCases.Test_Login_001"/>
+    </classes>
+        </test>  -->
+        
+        </suite>
